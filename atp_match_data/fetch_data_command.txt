@@ -1,0 +1,16 @@
+$startYear = 2020
+$endYear = 2024
+$baseUrl = 'https://github.com/JeffSackmann/tennis_atp/raw/master'
+$urls = @()
+
+foreach ($year in $startYear..$endYear) {
+    $urls += "$baseUrl/atp_matches_$year.csv"
+    $urls += "$baseUrl/atp_matches_futures_$year.csv"
+    $urls += "$baseUrl/atp_matches_qual_chall_$year.csv"
+}
+
+$urls += "$baseUrl/matches_data_dictionary.txt"
+
+foreach ($u in $urls) {
+    curl -L -O $u
+}
