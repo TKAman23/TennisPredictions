@@ -6,7 +6,7 @@ A notebook-driven project for predicting ATP men's singles match winners using m
 
 ## Overview
 
-- Raw data sourced from [JeffSackmann](https://github.com/JeffSackmann)'s [tennis_atp](https://github.com/JeffSackmann/tennis_atp) repository. Data has either been made private or shifted to his [MatchCharteringProject](https://github.com/JeffSackmann/tennis_MatchChartingProject).
+- Raw data sourced from [JeffSackmann](https://github.com/JeffSackmann)'s [tennis_atp](https://github.com/JeffSackmann/tennis_atp) repository. As of June 21, 2026 data has either been made private or shifted to his [MatchCharteringProject](https://github.com/JeffSackmann/tennis_MatchChartingProject).
 - Focus on ATP main tour, futures, and qualifying/challenger matches from 2020 to 2024.
 - Notebook pipeline cleans raw CSVs, extracts match features, and trains a KNN classifier.
 - Final model achieves over 99% test accuracy on the selected features.
