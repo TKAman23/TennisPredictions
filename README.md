@@ -6,7 +6,7 @@ A notebook-driven project for predicting ATP men's singles match winners using m
 
 ## Overview
 
-- Raw data sourced from [JeffSackmann](https://github.com/JeffSackmann)'s [tennis_atp](https://github.com/JeffSackmann/tennis_atp) repository.
+- Raw data sourced from [JeffSackmann](https://github.com/JeffSackmann)'s [tennis_atp](https://github.com/JeffSackmann/tennis_atp) repository. Data has either been made private or shifted to his [MatchCharteringProject](https://github.com/JeffSackmann/tennis_MatchChartingProject).
 - Focus on ATP main tour, futures, and qualifying/challenger matches from 2020 to 2024.
 - Notebook pipeline cleans raw CSVs, extracts match features, and trains a KNN classifier.
 - Final model achieves over 99% test accuracy on the selected features.
@@ -28,7 +28,7 @@ A notebook-driven project for predicting ATP men's singles match winners using m
    conda activate tennis
    ```
 
-2. Navigate to the `atp_match_data` directory and run `fetch_data_command.txt`.
+2. Navigate to the `atp_match_data` directory and run `fetch_data_command.txt`. (Command may not work due to original database status.)
 
 3. Open and run the notebooks in the `tennis` environment.
 
@@ -144,3 +144,18 @@ A notebook-driven project for predicting ATP men's singles match winners using m
 ## Acknowledgements
 
 - Data source: Jeff Sackmann's tennis_atp repository.
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Karthikeya Turimalla
+
+## Citation
+
+If you use this project in research, coursework, publications, or derivative works,
+please cite or reference this repository.
+
+Author: Karthikeya Turimalla (@TKAman23)
+Repository: <https://github.com/TKAman23/TennisPredictions>
+Year: 2026

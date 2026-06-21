@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Tennis Match Prediction with KNN
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: Turimalla
+    given-names: Karthikeya
+repository-code: https://github.com/TKAman23/TennisPredictions
+license: MIT
+date-released: 2026-06-21
